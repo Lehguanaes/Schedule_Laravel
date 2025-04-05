@@ -1,0 +1,160 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f3e9f4; /* Fundo lilás claro */
+}
+
+/* Navbar com tons de verde */
+.navbar {
+    background: linear-gradient(90deg, #1db851, #ddd); /* Verde + Cinza */
+}
+.navbar-brand, .nav-link {
+    color: white !important;
+    font-weight: bold;
+}
+
+/* Estilização do container do formulário */
+.container {
+    max-width: 700px;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+/* Título principal */
+h3 {
+    text-align: center;
+    color: #1db851; /* Verde */
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Subtítulo e textos explicativos */
+p {
+    text-align: center;
+    color: #455963;
+    font-size: 19px;
+}
+
+/* Labels do formulário */
+.form-label {
+    font-weight: bold;
+    color: #1db851; /* Verde */
+    font-size: 16px;
+}
+
+/* Inputs do formulário */
+.form-control {
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #1db851; /* Borda verde */
+    border-radius: 6px;
+    background-color: white;
+    color: #333;
+    outline: none;
+    transition: 0.3s;
+}
+
+/* Quando o input estiver focado */
+.form-control:focus {
+    border-color: #159d43; /* Verde mais escuro no foco */
+    box-shadow: 0 0 5px rgba(29, 184, 81, 0.5); /* Efeito glow sutil */
+    background-color: #e9f7ef; /* Fundo verde clarinho */
+}
+
+/* Estilizando o select */
+.form-select {
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #1db851; /* Borda verde */
+    border-radius: 6px;
+    background-color: white;
+    color: #424242;
+    cursor: pointer;
+    outline: none;
+    transition: 0.3s;
+}
+
+/* Quando o select estiver focado */
+.form-select:focus {
+    border-color: #159d43; /* Verde mais escuro no foco */
+    box-shadow: 0 0 5px rgba(29, 184, 81, 0.5); /* Efeito glow sutil */
+    background-color: #e9f7ef; /* Fundo verde clarinho */
+}
+
+/* Botão customizado em tons de verde */
+.btn-custom {
+    background-color: #1db851;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: none;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.btn-custom:hover {
+    background-color: #159d43;
+}
+
+.btn-editar-verde {
+    background-color: #4CAF50; /* Verde mais claro */
+    border-color: #4CAF50;
+    color: white;
+}
+
+.btn-editar-verde:hover {
+    background-color: #45a049; /* Um pouco mais escuro no hover */
+}
+
+.btn-excluir-verde {
+    background-color: #2e7d32; /* Verde mais escuro */
+    border-color: #2e7d32;
+    color: white;
+}
+
+.btn-excluir-verde:hover {
+    background-color: #309437;
+}
+
+/* Rodapé fixo */
+#footer {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    background: linear-gradient(90deg, #1db851, #ddd); /* Verde + Cinza */
+    text-align: center;
+    color: white;
+    padding: 6px;
+}
+
+/* Alertas personalizados */
+.alert {
+    position: fixed;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1050;
+    width: 90%;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: opacity 0.5s ease-out;
+    border-radius: 6px;
+}
+
+/* Estilização do SweetAlert2 */
+.swal2-popup {
+    border-radius: 10px;
+    font-size: 16px;
+}
+
